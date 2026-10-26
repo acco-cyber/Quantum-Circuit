@@ -1,0 +1,19 @@
+{
+ "id": "gwey1025/vqcc-v6-public-plateau",
+ "title": "vqcc-v6-public-plateau",
+ "code_file": "vqcc-v6-public-plateau.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": true,
+ "enable_gpu": false,
+ "enable_tpu": false,
+ "enable_internet": false,
+ "dataset_sources": [],
+ "competition_sources": [
+  "google-verifiable-quantum-circuit-compilation"
+ ],
+ "kernel_sources": [
+  "kirilltym/quantum-circuits-qrom-tower42"
+ ],
+ "model_sources": []
+}

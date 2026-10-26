@@ -1,0 +1,36 @@
+Quantum Circuits | Schur DQI + Exact Gauge
+Kirill Tymchishin: independent MPS search, sorted sign-flip prefix-sum pair minimizer,
+parallel perfect-matching sweeps, exact orthogonal chemistry polish, independent
+full official verification and reproducible integration. This version updates the
+same public notebook; previous exact-control rewrites remain in its history.
+
+The portfolio combines the following credited public components:
+- Vladislav Lavrentev / lightningv08: J5 loader schedule, 75-relation kernel
+  budget, exact source rebuild and resource comparison; public v15 binaries reused.
+- Ahmed Berat Ozer: v8 Bezout-Schur splice and B255 chemistry with fine
+  quantization, pruning, offset optimization and refit/gauge loop.
+- mrmeows: 63-qubit structural inverse-square-root build, chemistry factor family,
+  round17 Bezout-Hankel transform, exact loader compiler, eight-bit regime and
+  gauge refinements; marculera loaders.
+- jday96314 / QuantumAI: continued-fraction Schur decoder architecture and original
+  implementation. Alex Chilton: rebuild and 883-qubit reverse synthesis. We reuse
+  the exact public compiled binary, not claim a new decoder or reproduce its code.
+  The upstream GitHub repository has no declared code licence; its original rights
+  are retained. The compiled component is sourced from the credited public output.
+- Earlier gauge/refit lineage: Kozykorpesh / kozykappa, Phuc Thai / DePie,
+  anazemcev / Artem1410, Dmitrii Gluzdov, Michael Rustad, Ahmed Berat Ozer, mrmeows,
+  Alex Chilton. Earlier arithmetic/decoder lineage: busyaprime, SomeJoint / Agniv
+  Banerjee, manwithacat, marsyas, Sumit Chongder, Rudra Bhaskar, Zongao Bian,
+  lightningv08, Mizero Lucky Gall, Gu et al. and Guang Hao Low.
+
+Sources:
+https://www.kaggle.com/code/lightningv08/bezout-schur-5-word-qrom?scriptVersionId=362616133
+https://www.kaggle.com/code/ahmedberatozer/quantum-ai-df-thc-group-compression
+https://www.kaggle.com/datasets/ahmedberatozer/vqcc-v8-components
+https://www.kaggle.com/datasets/mrmeows/qcc-1375-open-circuits
+https://www.kaggle.com/code/alexchilton/toffolis-go-18-3-schur-dqi-at-883-qubits
+https://github.com/jday96314/QuantumAI
+
+Our gauge/integration code is Apache-2.0. All original component rights and licences
+remain with their authors. Official inputs, native library and verifiers retain
+Google Quantum AI / competition terms. No endorsement is implied.
