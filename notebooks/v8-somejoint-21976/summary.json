@@ -1,0 +1,157 @@
+{
+  "status": "PASS",
+  "blocks": {
+    "invsqrt": {
+      "id": "mrmeows-21",
+      "title": "mrmeows' 63-qubit hybrid circuit",
+      "part": "0766a111a76f241aa57fbbed466436d743be13436943ddb0628c291ca07d67d6"
+    },
+    "dqi": {
+      "id": "pro-jet658",
+      "title": "our 883-qubit decoder with GPT-6 Astra Pro's 658-Toffoli jet",
+      "part": "ef334fee63f3367fe721549dd94d4264793c56e3c49a09177c05b353ac71c927"
+    },
+    "dfthcsos": {
+      "id": "busyaprime-v6",
+      "title": "Ahmed Berat \u00d6zer's version 9 chemistry circuits with busyaprime's refitted weights",
+      "part": "3f680000bbde4c5fb6d9d55283fa4359ed6209299e25737125d9c8005999d04b"
+    }
+  },
+  "verifiers": {
+    "invsqrt": {
+      "status": "PASS",
+      "score": 103546.168164559,
+      "toffoli_equivalent": 1643.5899708660158,
+      "toffoli_count": 1348.4991469771198,
+      "max_toffoli_count": 1416,
+      "t_count": 1.0,
+      "rotation_count": 41.0,
+      "rotation_eps": 2.434041480874084e-13,
+      "num_qubits": 63,
+      "reaction_depth": 792,
+      "num_ops": 46610,
+      "verified_shots": 200540928,
+      "worst_error_over_tolerance": 0.9993237694056958,
+      "worst_x": 161,
+      "circuit_sha256": "0766a111a76f241aa57fbbed466436d743be13436943ddb0628c291ca07d67d6"
+    },
+    "dqi": {
+      "status": "PASS",
+      "score": 436484409263.83356,
+      "m": 4095,
+      "n": 70,
+      "degree": 12,
+      "r": 2016,
+      "verified_shots": 102400,
+      "value_errors": 0,
+      "phase_errors": 1,
+      "empirical_error_rate": 9.765625e-06,
+      "effective_error_rate": 0.0009104197583220583,
+      "log2_delta": -128.0,
+      "repetition_factor": 1.1967314991687559,
+      "mean_error_weight": 31.046737331746634,
+      "toffoli_count": 467789.6475585938,
+      "max_toffoli_count": 485301,
+      "reaction_depth": 8355,
+      "num_ops": 61165062,
+      "num_qubits": 883,
+      "num_bits": 114178,
+      "circuit_sha256": "ef334fee63f3367fe721549dd94d4264793c56e3c49a09177c05b353ac71c927"
+    },
+    "dfthcsos": {
+      "status": "PASS",
+      "score": 355065066.0799457,
+      "lambda_eff": 47.53703742955374,
+      "toffoli_count": 17330.0,
+      "num_qubits": 431,
+      "brot": 8,
+      "batch_size": 5,
+      "num_circuits": 15,
+      "reaction_depth": 165,
+      "num_ops": 733588,
+      "verified_shots": 87424,
+      "submission_sha256": "3f680000bbde4c5fb6d9d55283fa4359ed6209299e25737125d9c8005999d04b"
+    }
+  },
+  "member_sha256": {
+    "dfthcsos/angle_k_0.kmb": "0942f5305a87c5a4fcf6651e62df9101cec4671415f169a71de60ba9ea75ff7c",
+    "dfthcsos/angle_k_1.kmb": "54951c2665fac7bf59aac7c4889f6b3785fe080951b9914168d86a498cee7b49",
+    "dfthcsos/angle_k_10.kmb": "2c7006937399980a5d4642acbbd7033dbc1517eca941cd84eb86c752c66c6120",
+    "dfthcsos/angle_k_11.kmb": "d4342edd711b9bea1afd9ef79d931bfbd1845078b45b65648273fb033d225f50",
+    "dfthcsos/angle_k_12.kmb": "785565ad2fbd99b53b89931795ceb9c05e7b1524c7f1a7f58ffbf6baa5e0d8b5",
+    "dfthcsos/angle_k_13.kmb": "c265d77603a919b83c1d20ced3252692a5f902b0175c6cfdbac7ce584bd1f9c2",
+    "dfthcsos/angle_k_14.kmb": "c9df4f1975b63ed9014ecffe693337c6d6919d81a7b32025e78dbdc664486881",
+    "dfthcsos/angle_k_2.kmb": "c618f287eb496c1845b7200b35f0fdd0491f1184f3b09f118a7d421234c8a14d",
+    "dfthcsos/angle_k_3.kmb": "f091a367d27bdf2a721122ec3515784a7d0513c869e7b0c452db147798197599",
+    "dfthcsos/angle_k_4.kmb": "945ad68ef9be3e6c4f3e30562ffe96399af8e51ade7877e3e9dc9d8b870154b5",
+    "dfthcsos/angle_k_5.kmb": "47a56f9bf5c95b0e2006b390ba868f874d439c594d16abc729d19c2b1d894928",
+    "dfthcsos/angle_k_6.kmb": "85f4675c9b853e8714aff1af5448b4e8321a5cdf6087d0105ee57c3bdcc306d1",
+    "dfthcsos/angle_k_7.kmb": "1946e4372780fbb04da292d3544d206a6676b72a38546c461df813761e67225b",
+    "dfthcsos/angle_k_8.kmb": "95c635076a3e387d967715bf6fc203466aaf0de654cef8bc550892f7ba7ca35e",
+    "dfthcsos/angle_k_9.kmb": "7a8338e7ef8a04718c07998539b8d536245bf38e1844599a13219a45f57097b4",
+    "dfthcsos/submission.npz": "a60e21cb380474976b7d99dbf97889beb0784928d3a6c0becef12bc982496ab6",
+    "dqi.kmb": "ef334fee63f3367fe721549dd94d4264793c56e3c49a09177c05b353ac71c927",
+    "invsqrt.kmb": "0766a111a76f241aa57fbbed466436d743be13436943ddb0628c291ca07d67d6"
+  },
+  "geometric_mean": 21.97590615865577,
+  "archive_sha256": "be8301da5551ab72edc6b92ddbe1cefa0751164d845b5adb9d30856f5695e0d4",
+  "archive_bytes": 31857317,
+  "environment": {
+    "python": "3.13.15",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "2.1.3",
+      "scipy": "1.16.3"
+    },
+    "workers": 4,
+    "affinity": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "numeric_threads": 1,
+    "kickmix_sha256": "c66b3216c4029e0cdfd09054306aa0feadf53ab2f50c1164e37f752874e5005e",
+    "seed": "official default: derived from each circuit SHA-256, empty salt",
+    "assembled_from_commit": "06fbfe8b87c4853f9d575eb683dd76375f37b683",
+    "blocks_changed_since_commit": true
+  },
+  "timings": [
+    {
+      "command": [
+        "build",
+        "blocks/dqi/pro-jet658/source/exp/decoder/build_883.py"
+      ],
+      "seconds": 183.252905091,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "notebooks/take.py",
+        "/kaggle/input",
+        "/tmp/qcomp-qi3lj84f/build/submission",
+        "/tmp/qcomp-qi3lj84f/source/members.json",
+        "/tmp/qcomp-qi3lj84f/build/built"
+      ],
+      "seconds": 5.92845726500002,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "notebooks/check-submission",
+        "/tmp/qcomp-qi3lj84f/build/submission"
+      ],
+      "seconds": 0.9320366869999361,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "notebooks/extra-format.py",
+        "/tmp/qcomp-qi3lj84f/build/submission"
+      ],
+      "seconds": 0.19800410199991347,
+      "returncode": 0
+    }
+  ],
+  "elapsed_seconds": 276.307437462
+}
