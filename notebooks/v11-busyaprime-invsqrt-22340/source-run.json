@@ -1,0 +1,61 @@
+{
+ "bundle": "sub_015",
+ "score": 22.40294721948608,
+ "expected_score": 22.40294721948608,
+ "rel_score": 0.0,
+ "costs": {
+  "invsqrt": 102664.19839367512,
+  "dqi": 422346244399.0774,
+  "dfthcsos": 349339717.3328993
+ },
+ "rel": {
+  "invsqrt": 0.0,
+  "dqi": 0.0,
+  "dfthcsos": 0.0
+ },
+ "k_dqi": 0,
+ "zip_sha256": "aa1f46897694ee4d3f5ef811b9a173784d66523d6436e3fbb09ff725bbdd396c",
+ "same_bytes": true,
+ "wall_seconds": 835.2745237629999,
+ "pin_seconds": 5.265039815999984,
+ "zip_seconds": 10.001222885999994,
+ "metric_seconds": 810.159770817,
+ "verifier_seconds": {
+  "invsqrt": 662.214851972,
+  "dqi": 121.35866996499999,
+  "dfthcsos": 25.735977467999987
+ },
+ "peak_rss_gib": 4.626625061035156,
+ "maxrss_runner_kib": 4851368,
+ "cpus": 4,
+ "python": "3.13.15",
+ "metric_sha256": "e7c5bfafa13cb54e138c70a281ca08ecece3e9203b514f6616fa19bf33475c8f",
+ "inputs": {
+  "dfthcsos/angle_k_0.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_0.kmb",
+  "dfthcsos/angle_k_1.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_1.kmb",
+  "dfthcsos/angle_k_10.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_10.kmb",
+  "dfthcsos/angle_k_11.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_11.kmb",
+  "dfthcsos/angle_k_12.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_12.kmb",
+  "dfthcsos/angle_k_13.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_13.kmb",
+  "dfthcsos/angle_k_14.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_14.kmb",
+  "dfthcsos/angle_k_2.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_2.kmb",
+  "dfthcsos/angle_k_3.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_3.kmb",
+  "dfthcsos/angle_k_4.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_4.kmb",
+  "dfthcsos/angle_k_5.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_5.kmb",
+  "dfthcsos/angle_k_6.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_6.kmb",
+  "dfthcsos/angle_k_7.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_7.kmb",
+  "dfthcsos/angle_k_8.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_8.kmb",
+  "dfthcsos/angle_k_9.kmb": "/kaggle/input/33-qcc-v8-members/dfthcsos__angle_k_9.kmb",
+  "dfthcsos/submission.npz": "/kaggle/input/33-qcc-v8-members/dfthcsos__submission.npz",
+  "dqi.kmb": "/kaggle/input/33-qcc-v8-members/dqi.kmb",
+  "invsqrt.kmb": "/kaggle/input/33-qcc-v8-members/invsqrt.kmb"
+ },
+ "gates": {
+  "G2 bytes equal sub_015": true,
+  "G3 every cost within 1e-9 of the record": true,
+  "G4 wall time at most 1,800 s": true,
+  "G4 peak RSS at most 24 GiB": true
+ },
+ "own_lane": {},
+ "start_utc": "2026-10-28 02:55 UTC"
+}

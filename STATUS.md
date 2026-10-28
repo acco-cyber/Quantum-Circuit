@@ -15,6 +15,7 @@ Score = geometric mean over invsqrt / dqi / dfthcsos of cost_reference / cost_su
 | v8 | 10-27 22:50 | **22.009** | somejoint 21.98 output: same as v7 but DQI 883q + 658-Toffoli jet (55.99x) - `notebooks/v8-somejoint-21976` |
 | v9 | 10-28 00:45 | **22.129** | v8 + heliosli J5 chemistry refit (9.6055x, verified locally) - `notebooks/v9-helios-j5-chem-22129` |
 | v10 | 10-28 02:05 | **22.276** | v9 + somejoint 897q DQI (57.87x, DQI verifier PASS locally) - `notebooks/v10-somejoint-897q-dqi-22339` |
+| v11 | 10-28 04:05 | pending (~22.34) | v10 + busyaprime 63q invsqrt v2 (102,664, verifier PASS locally) - `notebooks/v11-busyaprime-invsqrt-22340` |
 
 Leaderboard 2026-10-27 00:32 UTC: 23.352 / 22.886 / 22.805 / 22.698 / 21.755. Our team: **rank 92 / 1171** at 19.579
 (up from ~129 at 15.134). About 25 teams share the public plateau 19.5790 exactly; rank 3 needs > 22.80.
