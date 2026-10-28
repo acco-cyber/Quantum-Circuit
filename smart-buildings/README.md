@@ -12,7 +12,7 @@ Metric: lower is better. LB 2026-10-28 00:50 UTC top: 0.00514 / 0.00521 / 0.0053
 | sb03 | sb-combo-c42-f10 | C42 with cooling float 1.0K (conservative) | pending |
 | sb04 | sb-combo-c62 | C42 with heating warm-up 6K/h (dev -6.4%, more comfort risk) | pending |
 | - | sb-combo-r4 | intermediate variant, not submitted | - |
-| sb05 | sb05-c42-holgate | C42 + occupancy gate from 06:30 (holidays: comfort schedule still says work day but nobody comes; also stops after everyone left). Local fairbanks_1 3 days -6.9% | submitted 10-28 06:28, pending |
+| sb05 | sb05-c42-holgate | C42 + occupancy gate from 06:30 (holidays: comfort schedule still says work day but nobody comes; also stops after everyone left). Local fairbanks_1 3 days -6.9% | **0.01186** (best) |
 | sb06 | sb06-c42f10-holgate | sb03 cooling float 1.0 K + sb05 occupancy gate | submitted 10-28 07:13, pending |
 
 All CPU only. Next: once sb01-sb04 score, pick the warm-up rate / float direction from the deltas before tuning further.
@@ -70,3 +70,21 @@ building_train_1/fairbanks_1, 5 days, C42F10 (= sb03, LB 0.01188), official rewa
 Reading: the prestart lead is near the optimum from both sides (LB: HEAT_RATE 6 was worse, local: 3 is worse).
 Small parameter moves are worth < 1%; the 2x gap to the top (0.00514) needs a structural energy change
 (ventilation during prestart/occupied heating), not more tuning. No SB slot used.
+
+## 2026-10-28 13:20 UTC - holiday prestart + gate timing (hourly run, local CPU)
+building_train_1/fairbanks_1, 3 days (Jan 1-3 2023; Jan 2 = observed New Year, a holiday for occupancy and tariff
+via `holidays.US()` in `conversion_utils.is_work_day`, but not for the comfort schedule).
+* On the holiday the adaptive prestart still burns 200-400 kW gas from 03:30 to the 06:30 gate (~3 h of a work-day
+  prestart). It can only be skipped if the policy knows the date - and it cannot: the observation has hour-of-day and
+  day-of-week only, `meta['holidays']` is empty, scenario start dates are hidden. Dead end without a date signal.
+* AHU actions while heating: recirculation already at max (normalised 1.0 -> 70 % recirc, 30 % OA floor), SAT 305 K
+  (AHU only cools, so supply = mixed air), static pressure ~830-1100 Pa from the zone PI. Ventilation share of gas is
+  fixed by the 30 % OA floor: (Tz-Toa)*0.3 vs (35 C-Tz) per m3, so lowering flow does not change prestart efficiency.
+
+| variant | score | comfort | energy | carbon | gas kW |
+|---|---:|---:|---:|---:|---:|
+| SB06 (gate 06:30) | 0.02535 | 0.00064 | 0.00727 | 0.01744 | 84.9 |
+| SB06 gate 06:15 | 0.02531 (-0.16 %) | 0.00064 | 0.00726 | 0.01741 | 84.8 |
+
+Too small for a slot on its own; fold it into the next real change. No SB slot used; sb06/sb07 still pending.
+`sb-lab/probe_actions.py` prints the AHU recirc/pressure/SAT actions per 2 h.
