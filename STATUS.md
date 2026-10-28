@@ -13,6 +13,7 @@ Score = geometric mean over invsqrt / dqi / dfthcsos of cost_reference / cost_su
 | v6 | 10-27 00:01 | **19.579** | public plateau portfolio (kirilltym QROM+Tower42, byte-identical, credited) - `notebooks/v6-public-plateau-19.5` |
 | v7 | 10-27 19:49 | **21.882** | busyaprime 'LB 21.88210' output, hash-pinned (invsqrt 63q, DQI R18 877q, chem V9 refit) - `notebooks/v7-busyaprime-21882` |
 | v8 | 10-27 22:50 | **22.009** | somejoint 21.98 output: same as v7 but DQI 883q + 658-Toffoli jet (55.99x) - `notebooks/v8-somejoint-21976` |
+| v9 | 10-28 00:45 | pending | v8 + heliosli J5 chemistry refit (9.6055x, verified locally) - `notebooks/v9-helios-j5-chem-22129` |
 
 Leaderboard 2026-10-27 00:32 UTC: 23.352 / 22.886 / 22.805 / 22.698 / 21.755. Our team: **rank 92 / 1171** at 19.579
 (up from ~129 at 15.134). About 25 teams share the public plateau 19.5790 exactly; rank 3 needs > 22.80.
