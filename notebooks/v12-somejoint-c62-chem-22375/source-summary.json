@@ -1,0 +1,249 @@
+{
+  "status": "PASS",
+  "blocks": {
+    "invsqrt": {
+      "id": "busyaprime-v8",
+      "title": "busyaprime's lookup in mrmeows' 63-qubit circuit",
+      "part": "07314803a0925970cf45007ebbdb8a146378c242e3991c70d6f7509af3d583da"
+    },
+    "dqi": {
+      "id": "pro-q2-897",
+      "title": "GPT-6 Astra Pro's 897-qubit decoder with the 658-Toffoli jet",
+      "part": "b3354f60e459dcebe67910363e96498f8bb0aa7f699bc016ef962015c3732fd6"
+    },
+    "dfthcsos": {
+      "id": "team-b143-c62",
+      "title": "our team's R8 B143 factorization with phased five-word angle lookups",
+      "part": "377c00809b8bb12f5d16dbf5d0a4874e718be7eefe08c8ced513f908345a1d9e"
+    }
+  },
+  "verifiers": {
+    "invsqrt": {
+      "status": "PASS",
+      "score": 102664.23957721348,
+      "toffoli_equivalent": 1629.591104400214,
+      "toffoli_count": 1334.500280511318,
+      "max_toffoli_count": 1402,
+      "t_count": 1.0,
+      "rotation_count": 41.0,
+      "rotation_eps": 2.434041480874084e-13,
+      "num_qubits": 63,
+      "reaction_depth": 795,
+      "num_ops": 45722,
+      "verified_shots": 200540928,
+      "worst_error_over_tolerance": 0.9993237694056958,
+      "worst_x": 161,
+      "circuit_sha256": "07314803a0925970cf45007ebbdb8a146378c242e3991c70d6f7509af3d583da"
+    },
+    "dqi": {
+      "status": "PASS",
+      "score": 422346240055.8793,
+      "m": 4095,
+      "n": 70,
+      "degree": 12,
+      "r": 2016,
+      "verified_shots": 102400,
+      "value_errors": 0,
+      "phase_errors": 0,
+      "empirical_error_rate": 0.0,
+      "effective_error_rate": 0.0008660587301657926,
+      "log2_delta": -128.0,
+      "repetition_factor": 1.1912604648115832,
+      "mean_error_weight": 31.046737331746634,
+      "toffoli_count": 440632.99798828125,
+      "max_toffoli_count": 454477,
+      "reaction_depth": 9339,
+      "num_ops": 55778145,
+      "shot_operation_counts": {
+        "NEG": 8297470,
+        "BIT_INVERT": 148440321891,
+        "BIT_STORE0": 11950899200,
+        "BIT_STORE1": 290308204,
+        "X": 25484727600,
+        "Z": 2946134613,
+        "R": 8969169026,
+        "HMR": 11735914626,
+        "CX": 5020937301259,
+        "CZ": 35171793288,
+        "SWAP": 163679827293,
+        "CSWAP": 2263449600,
+        "CCX": 42783029718,
+        "CCZ": 74339676,
+        "INFO_TAG": 1811456000,
+        "POP_CONDITION": 2001510400,
+        "PUSH_CONDITION": 2001510400
+      },
+      "num_qubits": 897,
+      "num_bits": 103164,
+      "circuit_sha256": "b3354f60e459dcebe67910363e96498f8bb0aa7f699bc016ef962015c3732fd6"
+    },
+    "dfthcsos": {
+      "status": "PASS",
+      "score": 347715359.9909825,
+      "lambda_eff": 48.27127340449214,
+      "toffoli_count": 16752.0,
+      "num_qubits": 430,
+      "brot": 8,
+      "batch_size": 5,
+      "num_circuits": 15,
+      "reaction_depth": 177,
+      "num_ops": 600596,
+      "verified_shots": 78080,
+      "submission_sha256": "377c00809b8bb12f5d16dbf5d0a4874e718be7eefe08c8ced513f908345a1d9e",
+      "resources": {
+        "brot": 8,
+        "keep_bits": 10,
+        "angles_toffoli_per_pass": 4333.0,
+        "angles_toffoli": 8666.0,
+        "angles_qubits": 126,
+        "angles_selection_qubits": 11,
+        "angles_persistent_qubits": 40,
+        "angles_temporary_qubits": 75,
+        "outer_state_prep_toffoli": 373,
+        "inner_state_prep_toffoli": 5463,
+        "givens_rotations_toffoli": 2250,
+        "outer_state_prep_persistent_qubits": 42,
+        "outer_state_prep_temporary_qubits": 96,
+        "outer_state_prep_qubits": 138,
+        "inner_state_prep_persistent_qubits": 44,
+        "inner_state_prep_temporary_qubits": 304,
+        "inner_state_prep_qubits": 348,
+        "heuristic_persistent_qubits": 86,
+        "heuristic_temporary_qubits": 304,
+        "heuristic_toffoli": 8086,
+        "heuristic_qubits": 390,
+        "persistent_qubits": 126,
+        "temporary_qubits": 304,
+        "toffoli": 16752.0,
+        "qubits": 430,
+        "angles_within_cap": true
+      },
+      "metrics": {
+        "error_1": 0.019812837224441895,
+        "error_2": 0.0199988000129965,
+        "Lambda": 299.5531146770523,
+        "E_SOS": -22144.18825219999,
+        "E_gap": 3.9149021999910474,
+        "lambda_eff": 48.27127340449214,
+        "gap_in_domain": true
+      }
+    }
+  },
+  "member_sha256": {
+    "dfthcsos/angle_k_0.kmb": "5255d0d66795e2fa1e1e1b36416237e44cf21aad2e5479c40f87e1969403eca2",
+    "dfthcsos/angle_k_1.kmb": "d262661e351a90a223d626a28aaa102d8431dad11bdb383dba356e4185aabfcd",
+    "dfthcsos/angle_k_10.kmb": "bd98550e656553014cb1a13cae825666c5e68a0e7a384d5965107599f128e0f0",
+    "dfthcsos/angle_k_11.kmb": "dd0551f1da64eec6dc73ec7688ea7f8c6418a216b8a9125eea486a2cf939ffd2",
+    "dfthcsos/angle_k_12.kmb": "c34e9459efe42c4b3679d4e2a66ffd3b6556965fd462f5f2675772cd529a26f3",
+    "dfthcsos/angle_k_13.kmb": "3e9a4e1b764043e22f3587675d2b578aca04df75425b3a66615e1a1088be600f",
+    "dfthcsos/angle_k_14.kmb": "8bf80f72edf85122666c68a6e8af3d0a882003836478bc66418cbc87bac1a135",
+    "dfthcsos/angle_k_2.kmb": "37d30f21a92aec50287ae7085b84d2cd7a490a1c961decfafe39b9b5c6776f2e",
+    "dfthcsos/angle_k_3.kmb": "f3fce956a2a213bd650687cf8d329fceab2327c19cf43bacd05dddccf73882a0",
+    "dfthcsos/angle_k_4.kmb": "1f949ad54757dfaafb6bfdac99894bffd0410d924b0e454d1aec3d894dd5afbd",
+    "dfthcsos/angle_k_5.kmb": "84655d0b97912178da383df083a3424c3822f23e590abc95dcaaea0e998c2e79",
+    "dfthcsos/angle_k_6.kmb": "27875555d228d50e3681676b63d84d638750afb4245f23a71b67d2f6a2cff1c5",
+    "dfthcsos/angle_k_7.kmb": "49e43cd23195ec70278ca2d0e618c585b8a49189d4584ee59bd0a793a720f4fb",
+    "dfthcsos/angle_k_8.kmb": "0e49460864fbb5270b8755d98e3d5af14b1b94d35d183dc842d1953253cfe845",
+    "dfthcsos/angle_k_9.kmb": "20b1d32646f1965669ddd5c310779d7a0b23cfdf6276fdb5a415a75359c7fc09",
+    "dfthcsos/submission.npz": "c59c5992d9c81cbb8fa8b0538059125ddea656105d688f7f6bd7df7495c0320d",
+    "dqi.kmb": "b3354f60e459dcebe67910363e96498f8bb0aa7f699bc016ef962015c3732fd6",
+    "invsqrt.kmb": "07314803a0925970cf45007ebbdb8a146378c242e3991c70d6f7509af3d583da"
+  },
+  "geometric_mean": 22.43777534520302,
+  "archive_sha256": "5b2b5023af2dc126a6ec8bd03d91b9f3c34a32150819208f0bd80a5b9bdd6d5e",
+  "archive_bytes": 26436120,
+  "environment": {
+    "python": "3.13.15",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "2.1.3",
+      "scipy": "1.16.3"
+    },
+    "workers": 4,
+    "affinity": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "numeric_threads": 1,
+    "kickmix_sha256": "c66b3216c4029e0cdfd09054306aa0feadf53ab2f50c1164e37f752874e5005e",
+    "seed": "official default: derived from each circuit SHA-256, empty salt",
+    "assembled_from_commit": "fdd8cee17cb71aa5bf8332c1fa436b2b1859237e",
+    "blocks_changed_since_commit": true
+  },
+  "timings": [
+    {
+      "command": [
+        "build",
+        "blocks/dqi/pro-q2-897/source/build_897.py"
+      ],
+      "seconds": 158.31018752699998,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "build",
+        "blocks/dfthcsos/team-b143-c62/source/build.py"
+      ],
+      "seconds": 3.8325428170001032,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "notebooks/take.py",
+        "/kaggle/input",
+        "/tmp/qcomp-p1yz5qtr/build/submission",
+        "/tmp/qcomp-p1yz5qtr/source/members.json",
+        "/tmp/qcomp-p1yz5qtr/build/built"
+      ],
+      "seconds": 3.772109791999924,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "data/comp/verifiers/invsqrt/verify_submission_invsqrt.py",
+        "/tmp/qcomp-p1yz5qtr/build/submission/invsqrt.kmb",
+        "--max-workers",
+        "4"
+      ],
+      "seconds": 622.749610731,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "data/comp/verifiers/dqi/verify_submission_dqi.py",
+        "/tmp/qcomp-p1yz5qtr/build/submission/dqi.kmb",
+        "--max-workers",
+        "4"
+      ],
+      "seconds": 123.93144259900009,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "data/comp/verifiers/dfthcsos/verify.py",
+        "/tmp/qcomp-p1yz5qtr/build/submission/dfthcsos"
+      ],
+      "seconds": 24.467798553999955,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "notebooks/check-submission",
+        "/tmp/qcomp-p1yz5qtr/build/submission"
+      ],
+      "seconds": 0.7547881389998565,
+      "returncode": 0
+    },
+    {
+      "command": [
+        "notebooks/extra-format.py",
+        "/tmp/qcomp-p1yz5qtr/build/submission"
+      ],
+      "seconds": 0.17656615700002476,
+      "returncode": 0
+    }
+  ],
+  "elapsed_seconds": 956.3989569600001
+}
