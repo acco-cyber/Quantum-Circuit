@@ -88,3 +88,7 @@ via `holidays.US()` in `conversion_utils.is_work_day`, but not for the comfort s
 
 Too small for a slot on its own; fold it into the next real change. No SB slot used; sb06/sb07 still pending.
 `sb-lab/probe_actions.py` prints the AHU recirc/pressure/SAT actions per 2 h.
+
+## 2026-10-28 18:08 UTC - LB read-out and last two 10-28 slots
+sb05 0.01186, **sb06 0.01179 (best)**, sb07 (float 1.3 K) 0.01183 -> float optimum near 1.0-1.15 K.
+sb08 = sb06 + gate 06:15 (submitted), sb09 = sb08 with float 1.15 K (submitted). 10-28 SB budget 5/5 used.
