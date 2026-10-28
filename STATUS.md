@@ -34,3 +34,4 @@ Leaderboard 2026-10-27 00:32 UTC: 23.352 / 22.886 / 22.805 / 22.698 / 21.755. Ou
 `notebooks/<version>/` holds the Kaggle notebook, kernel-metadata.json and NOTES.md for each submission from v6 on
 (v1-v5 were built and uploaded by earlier sessions as zip files; their composition is in the table above).
 `docs/` has the organisers' chemistry scoring README; `reference/` the public baseline notebook.
+| v14 | staged 10-28 11:50 | (proj. 22.630) | v13 + somejoint R8/B143 C60 full-XOR chemistry 3.45124e8 (verifier PASS locally) - **submit with first 10-29 slot** - `notebooks/v14-somejoint-fullxor-chem-22630` |

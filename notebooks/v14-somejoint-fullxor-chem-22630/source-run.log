@@ -1,0 +1,55 @@
+[{"stream_name":"stderr","time":8.781582548,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.781749867,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.781760984,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.781765403,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.559755375,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.559798168,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.559804086,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.559808248,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.414481722,"data":"BUILD.json taken from /kaggle/input/qcc-our-chemistry-b143-c60-xor/BUILD.json\n"}
+,{"stream_name":"stdout","time":14.414524533,"data":"submission.npz taken from /kaggle/input/qcc-our-chemistry-b143-c60-xor/submission.npz\n"}
+,{"stream_name":"stdout","time":14.414530669,"data":"19 official input files authenticated; 13 embedded files written; workers 4; no network, installs or training\n"}
+,{"stream_name":"stdout","time":20.755117074,"data":"dfthcsos built in 6 s: 15 angle circuits, 4,299 Toffolis per pass, at most 128 qubits, each an XOR on random words; submission digest 07dfbd32f101..., the one the verifier passed\n"}
+,{"stream_name":"stdout","time":24.33884047,"data":"take.py: 3.6 s\n"}
+,{"stream_name":"stdout","time":24.339817014,"data":"invsqrt.kmb                07314803a092  from /kaggle/input/33-qcc-v8-members/invsqrt.kmb\n"}
+,{"stream_name":"stdout","time":24.339843241,"data":"dqi.kmb                    4ee7a17b4cbc  from /kaggle/input/qcc-j5-chemistry-loaders-deeper-lookup-plans/submission.zip:dqi.kmb\n"}
+,{"stream_name":"stdout","time":24.339848798,"data":"dfthcsos/angle_k_0.kmb     4c7d5e10bfcd  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_0.kmb\n"}
+,{"stream_name":"stdout","time":24.339852475,"data":"dfthcsos/angle_k_1.kmb     842d964f12f6  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_1.kmb\n"}
+,{"stream_name":"stdout","time":24.339856398,"data":"dfthcsos/angle_k_2.kmb     af78bd925d53  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_2.kmb\n"}
+,{"stream_name":"stdout","time":24.339861096,"data":"dfthcsos/angle_k_3.kmb     757f14cce6df  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_3.kmb\n"}
+,{"stream_name":"stdout","time":24.339864639,"data":"dfthcsos/angle_k_4.kmb     4d2f97e97ca9  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_4.kmb\n"}
+,{"stream_name":"stdout","time":24.339867339,"data":"dfthcsos/angle_k_5.kmb     953c99c627db  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_5.kmb\n"}
+,{"stream_name":"stdout","time":24.339869927,"data":"dfthcsos/angle_k_6.kmb     f2bf77b81382  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_6.kmb\n"}
+,{"stream_name":"stdout","time":24.339872809,"data":"dfthcsos/angle_k_7.kmb     24e377f9ac94  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_7.kmb\n"}
+,{"stream_name":"stdout","time":24.339875389,"data":"dfthcsos/angle_k_8.kmb     0bc7aa8f0ac2  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_8.kmb\n"}
+,{"stream_name":"stdout","time":24.339877963,"data":"dfthcsos/angle_k_9.kmb     0443b95ddc81  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_9.kmb\n"}
+,{"stream_name":"stdout","time":24.339880494,"data":"dfthcsos/angle_k_10.kmb    736f14f089f6  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_10.kmb\n"}
+,{"stream_name":"stdout","time":24.339897647,"data":"dfthcsos/angle_k_11.kmb    58f81b138e66  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_11.kmb\n"}
+,{"stream_name":"stdout","time":24.339900711,"data":"dfthcsos/angle_k_12.kmb    cb7f527541fd  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_12.kmb\n"}
+,{"stream_name":"stdout","time":24.339903246,"data":"dfthcsos/angle_k_13.kmb    fc4d0da4dd47  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_13.kmb\n"}
+,{"stream_name":"stdout","time":24.339905795,"data":"dfthcsos/angle_k_14.kmb    8f7359f73f49  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/angle_k_14.kmb\n"}
+,{"stream_name":"stdout","time":24.339908436,"data":"dfthcsos/submission.npz    970f94efee08  from /tmp/qcomp-ke20aydt/build/built/dfthcsos/submission.npz\n"}
+,{"stream_name":"stdout","time":706.254366456,"data":"verify_submission_invsqrt.py: 681.9 s\n"}
+,{"stream_name":"stdout","time":706.444778227,"data":"invsqrt: PASS | Q 63 | cost 102,664 | 20.2288x below the reference | same as the recorded run\n"}
+,{"stream_name":"stdout","time":837.741777807,"data":"verify_submission_dqi.py: 131.5 s\n"}
+,{"stream_name":"stdout","time":837.938149886,"data":"dqi: PASS | Q 889 | cost 4.14781e+11 | 58.9213x below the reference | same as the recorded run\n"}
+,{"stream_name":"stdout","time":864.887855043,"data":"verify.py: 27.1 s\n"}
+,{"stream_name":"stdout","time":864.889517465,"data":"dfthcsos: PASS | Q 430 | cost 3.45124e+08 | 9.7229x below the reference | same as the recorded run\n"}
+,{"stream_name":"stdout","time":865.746860705,"data":"check-submission: 0.8 s\n"}
+,{"stream_name":"stdout","time":865.946245972,"data":"ALL CHECKS PASS\n"}
+,{"stream_name":"stdout","time":865.953644933,"data":"extra-format.py: 0.2 s\n"}
+,{"stream_name":"stdout","time":880.058121732,"data":"invsqrt   busyaprime's lookup in mrmeows' 63-qubit circuit: cost 102,664, ratio 20.2288\n"}
+,{"stream_name":"stdout","time":880.058168308,"data":"dqi       our 897-qubit decoder as modified by heliosli, at 889 qubits: cost 4.14781e+11, ratio 58.9213\n"}
+,{"stream_name":"stdout","time":880.058175604,"data":"dfthcsos  our team's R8 B143 C60 factorization with full-XOR five-word angle lookups: cost 3.45124e+08, ratio 9.7229\n"}
+,{"stream_name":"stdout","time":880.058181197,"data":"18 members, each byte-identical to its block; format checks and ZIP read-back PASS.\n"}
+,{"stream_name":"stdout","time":880.058186292,"data":"Geometric mean of the three ratios: 22.62971 (official verifiers at their defaults; the leaderboard measures again)\n"}
+,{"stream_name":"stdout","time":880.058191824,"data":"Elapsed 869 s | /kaggle/working/submission.zip\n"}
+,{"stream_name":"stderr","time":883.676009734,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":883.676047241,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":883.900468129,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":883.900497426,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":884.974966002,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":885.075228014,"data":"[NbConvertApp] Writing 117654 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":888.491190152,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":889.265439655,"data":"[NbConvertApp] Writing 529940 bytes to __results__.html\n"}
+]
