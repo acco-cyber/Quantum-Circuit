@@ -53,3 +53,20 @@ the floor halves gas but loses comfort 130x; (2) fully open reheat valves raise 
 reset in C42 is already better than max water. Ventilation is ~50-60% of winter gas (OA 1.8-3.4 m3/s at -30 C), so the
 remaining lever is AHU on-time/airflow when heat demand is low, not coil temperature.
 sb06 = C42-F10 (sb03, best 0.01188) + occupancy gate (sb05) pushed and submitted (10-28 SB slot 2/5).
+
+## 2026-10-28 10:55 UTC - fairbanks hour-of-day profile + two prestart probes (hourly run, local CPU)
+building_train_1/fairbanks_1, 5 days, C42F10 (= sb03, LB 0.01188), official reward. Episode step 0 is ~08:00 local.
+* Building is fully off overnight (gas 0 kW for ~7 h), then the adaptive prestart burns 290-380 kW for ~4 h before
+  arrivals; that prestart window is ~34% of the daily cost. Occupied hours run 170-260 kW (ventilation at -30 C).
+  Unoccupied steps = 41% of total cost (0.0199 of 0.0488).
+* Zones are still below band when the first occupants arrive (normalised regret 0.02 in the first occupied hour).
+
+| variant | score | comfort | energy | carbon | gas kW |
+|---|---:|---:|---:|---:|---:|
+| C42F10 | **0.04882** | 0.00259 | 0.01352 | 0.03272 | 160 |
+| X_HR3 (HEAT_RATE 4 -> 3, longer lead) | 0.04895 | 0.00146 | 0.01388 | 0.03361 | 164 |
+| X_ND5 (NIGHT_HEAT_DROP_K 10 -> 5) | 0.04882 (identical: night floor never binds) | | | | |
+
+Reading: the prestart lead is near the optimum from both sides (LB: HEAT_RATE 6 was worse, local: 3 is worse).
+Small parameter moves are worth < 1%; the 2x gap to the top (0.00514) needs a structural energy change
+(ventilation during prestart/occupied heating), not more tuning. No SB slot used.

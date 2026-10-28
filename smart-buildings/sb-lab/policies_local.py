@@ -1555,3 +1555,12 @@ class C42(V3):
 class C42G(C42):
     GATE = True
     GATE_AFTER_H = 6.5
+
+class C42F10(C42):
+    COOL_FLOAT_K = 1.0
+
+class X_ND5(C42F10):
+    NIGHT_HEAT_DROP_K = 5.0
+
+class X_HR3(C42F10):
+    HEAT_RATE = 3.0
