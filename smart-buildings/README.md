@@ -12,6 +12,7 @@ Metric: lower is better. LB 2026-10-28 00:50 UTC top: 0.00514 / 0.00521 / 0.0053
 | sb03 | sb-combo-c42-f10 | C42 with cooling float 1.0K (conservative) | pending |
 | sb04 | sb-combo-c62 | C42 with heating warm-up 6K/h (dev -6.4%, more comfort risk) | pending |
 | - | sb-combo-r4 | intermediate variant, not submitted | - |
+| sb05 | sb05-c42-holgate | C42 + occupancy gate from 06:30 (holidays: comfort schedule still says work day but nobody comes; also stops after everyone left). Local fairbanks_1 3 days -6.9% | submitted 10-28 06:28, pending |
 
 All CPU only. Next: once sb01-sb04 score, pick the warm-up rate / float direction from the deltas before tuning further.
 
