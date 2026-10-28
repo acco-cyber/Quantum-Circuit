@@ -17,7 +17,7 @@ Score = geometric mean over invsqrt / dqi / dfthcsos of cost_reference / cost_su
 | v10 | 10-28 02:05 | **22.276** | v9 + somejoint 897q DQI (57.87x, DQI verifier PASS locally) - `notebooks/v10-somejoint-897q-dqi-22339` |
 | v11 | 10-28 04:05 | **22.340** | v10 + busyaprime 63q invsqrt v2 (102,664, verifier PASS locally) - `notebooks/v11-busyaprime-invsqrt-22340` |
 | v12 | 10-28 05:58 | **22.375** | v11 + somejoint R8/B143 C62 chemistry 3.47715e8 (chem verifier PASS locally) - `notebooks/v12-somejoint-c62-chem-22375` |
-| v13 | 10-28 08:52 | pending (~22.51) | v12 + alexchilton 889q DQI 4.1478e11 (DQI verifier PASS locally x2 salts) - `notebooks/v13-alexchilton-889q-dqi-22510` |
+| v13 | 10-28 08:52 | **22.573** | v12 + alexchilton 889q DQI 4.1478e11 (DQI verifier PASS locally x2 salts) - `notebooks/v13-alexchilton-889q-dqi-22510` |
 
 Leaderboard 2026-10-27 00:32 UTC: 23.352 / 22.886 / 22.805 / 22.698 / 21.755. Our team: **rank 92 / 1171** at 19.579
 (up from ~129 at 15.134). About 25 teams share the public plateau 19.5790 exactly; rank 3 needs > 22.80.
