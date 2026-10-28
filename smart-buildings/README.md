@@ -36,3 +36,19 @@ Fairbanks prestart (04:00-06:00) burns ~240 kW of gas while nobody is in the bui
 `sb-lab/`: Kaggle CPU kernel `gwey1025/sb-lab-calib` - full 30-day runs of T_COMBO_D, C42, C62 on all 30 training
 scenarios (4 processes), writes `lab_results.json` with the comfort/energy/carbon/gas/AC split per scenario.
 Purpose: calibrate full-length local scores against the LB (sb01/sb02/sb04) before spending more SB slots.
+
+## 2026-10-28 07:00 UTC - heating-side physics experiments (hourly run, local, CPU)
+`sb-lab/bb_experiments.py`, building_train_1/fairbanks_1, first 5 days (1440 steps), official reward:
+
+| policy | score | comfort | energy | carbon | gas kW | pump kW |
+|---|---:|---:|---:|---:|---:|---:|
+| C42 (sb02) | **0.0486** | 0.0026 | 0.0135 | 0.0326 | 159 | 1.6 |
+| BB: AHU on/off hysteresis, damper floor, valve full, max water | 0.3651 | 0.3390 | 0.0091 | 0.0171 | 81 | 6.3 |
+| BB2: C42 + valve full on heating zones + max water | 0.0572 | 0.0025 | 0.0170 | 0.0376 | 182 | 5.2 |
+| BB2g: BB2 with damper gain 0.5 | 0.0611 | 0.0075 | 0.0170 | 0.0367 | 177 | 5.3 |
+
+Negative results: (1) floor-flow heat (damper 10%, 35 C discharge cap) cannot carry fairbanks zones - on/off cycling at
+the floor halves gas but loses comfort 130x; (2) fully open reheat valves raise gas and pump power - the PID hot-water
+reset in C42 is already better than max water. Ventilation is ~50-60% of winter gas (OA 1.8-3.4 m3/s at -30 C), so the
+remaining lever is AHU on-time/airflow when heat demand is low, not coil temperature.
+sb06 = C42-F10 (sb03, best 0.01188) + occupancy gate (sb05) pushed and submitted (10-28 SB slot 2/5).
