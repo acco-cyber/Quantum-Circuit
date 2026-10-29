@@ -92,3 +92,10 @@ Too small for a slot on its own; fold it into the next real change. No SB slot u
 ## 2026-10-28 18:08 UTC - LB read-out and last two 10-28 slots
 sb05 0.01186, **sb06 0.01179 (best)**, sb07 (float 1.3 K) 0.01183 -> float optimum near 1.0-1.15 K.
 sb08 = sb06 + gate 06:15 (submitted), sb09 = sb08 with float 1.15 K (submitted). 10-28 SB budget 5/5 used.
+
+## 2026-10-29 06:17 UTC - sb10 (gate 08:00) submitted
+LB read-out of 10-28: sb08 (sb06 + gate 06:15) 0.01337 and sb09 (float 1.15 + gate 06:15) 0.01335 vs sb06 0.01179: the
+06:15 gate cost +13% although it was -0.16% locally. Reading: on some hidden scenario nobody is in yet at 06:15 on a work
+day, the gate ends work mode and the whole day goes unconditioned. sb10 = sb06 with GATE_AFTER_H 8.0 (holiday saving kept,
+late-arrival risk removed). If sb10 < sb06, 06:30 was also hurting some days -> try 9.0/10.0; if sb10 > sb06, the
+06:30-08:00 prestart saving on holidays matters more -> go back to 6.5 and look elsewhere.
