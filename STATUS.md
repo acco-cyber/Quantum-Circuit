@@ -35,3 +35,12 @@ Leaderboard 2026-10-27 00:32 UTC: 23.352 / 22.886 / 22.805 / 22.698 / 21.755. Ou
 (v1-v5 were built and uploaded by earlier sessions as zip files; their composition is in the table above).
 `docs/` has the organisers' chemistry scoring README; `reference/` the public baseline notebook.
 | v14 | staged 10-28 11:50 | (proj. 22.630) | v13 + somejoint R8/B143 C60 full-XOR chemistry 3.45124e8 (verifier PASS locally) - **submit with first 10-29 slot** - `notebooks/v14-somejoint-fullxor-chem-22630` |
+| v14 | 10-29 06:15 | pending (proj. 22.75-22.79) | heliosli 'dataset now public' release v28_gz9 (busyaprime 63q invsqrt 102,349; somejoint 897q DQI; somejoint R8/B143/C60 chem + heliosli angles + Gluzdov weights 3.4057e8) - supersedes the staged full-XOR v14 - `notebooks/v14-heliosli-v28-gz9-22787` |
+
+### 10-29 notes
+* Quantum: every public portfolio now sits at ~22.78 (heliosli, kirilltym V22 22.78244 official - but kirilltym's loaders
+  need bit7 = bit6 on the target, a narrower contract than general XOR; avoid), alexchilton v53 ~22.78. LB top 26.14 / 25.53 / 25.34.
+  Chem gates all bind (error_1 = error_2 = 19.998 mHa, E_gap at floor, Lambda 304) -> W-only refits are exhausted; lambda_eff ~
+  sqrt(2 Lambda E_gap), so the next real step is a lower-one-norm factorization U (new angle circuits). Remaining 10-29 quantum
+  slots: hold for newer public releases or own circuits (resubmitting identical bytes gives the identical score).
+* Smart Buildings: sb10 (gate 08:00) submitted 06:17 (slot 1/5). Next SB slots: wait for sb10 read-out, then gate 9.0/10.0 or back to 6.5.
