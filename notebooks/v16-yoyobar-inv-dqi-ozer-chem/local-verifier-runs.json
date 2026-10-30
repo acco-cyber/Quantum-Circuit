@@ -1,0 +1,110 @@
+[
+ {
+  "run": "yoyo_inv_a",
+  "score": 100692.56293842051,
+  "qubits": 62,
+  "toffoli": 1327.4826225846527,
+  "value_errors": null,
+  "phase_errors": null,
+  "worst_error_over_tolerance": 0.9993237694056958
+ },
+ {
+  "run": "yoyo_inv_b",
+  "score": 100692.5280344432,
+  "qubits": 62,
+  "toffoli": 1327.4822297371636,
+  "value_errors": null,
+  "phase_errors": null,
+  "worst_error_over_tolerance": 0.9993237694056958
+ },
+ {
+  "run": "dqi_yoyo_a",
+  "score": 402458175942.148,
+  "qubits": 889,
+  "toffoli": 427474.7862109375,
+  "value_errors": 0,
+  "phase_errors": 0,
+  "worst_error_over_tolerance": null
+ },
+ {
+  "run": "dqi_yoyo_b",
+  "score": 402458110902.9242,
+  "qubits": 889,
+  "toffoli": 427474.7171289062,
+  "value_errors": 0,
+  "phase_errors": 0,
+  "worst_error_over_tolerance": null
+ },
+ {
+  "run": "dqi_yoyo_c",
+  "score": 402458271818.4593,
+  "qubits": 889,
+  "toffoli": 427474.888046875,
+  "value_errors": 0,
+  "phase_errors": 0,
+  "worst_error_over_tolerance": null
+ },
+ {
+  "run": "dqi_yoyo_d",
+  "score": 402458279633.46356,
+  "qubits": 889,
+  "toffoli": 427474.89634765626,
+  "value_errors": 0,
+  "phase_errors": 0,
+  "worst_error_over_tolerance": null
+ },
+ {
+  "run": "dqi_yoyo_e",
+  "score": 402457906499.18896,
+  "qubits": 889,
+  "toffoli": 427474.50001953123,
+  "value_errors": 0,
+  "phase_errors": 0,
+  "worst_error_over_tolerance": null
+ },
+ {
+  "run": "dqi_yoyo_f",
+  "score": 404306533471.252,
+  "qubits": 889,
+  "toffoli": 427474.7975195313,
+  "value_errors": 1,
+  "phase_errors": 0,
+  "worst_error_over_tolerance": null
+ },
+ {
+  "run": "dqi_yoyo_g",
+  "score": 402458215991.7464,
+  "qubits": 889,
+  "toffoli": 427474.82875,
+  "value_errors": 0,
+  "phase_errors": 0,
+  "worst_error_over_tolerance": null
+ },
+ {
+  "run": "dqi_yoyo_h",
+  "score": 402458334301.717,
+  "qubits": 889,
+  "toffoli": 427474.9544140625,
+  "value_errors": 0,
+  "phase_errors": 0,
+  "worst_error_over_tolerance": null
+ },
+ {
+  "run": "dqi_mwc_a",
+  "score": 403339965943.4192,
+  "qubits": 888,
+  "toffoli": 429376.82166992186,
+  "value_errors": 0,
+  "phase_errors": 0,
+  "worst_error_over_tolerance": null
+ },
+ {
+  "run": "dqi_mwc_b",
+  "score": 403340360897.1405,
+  "qubits": 888,
+  "toffoli": 429377.24211914063,
+  "value_errors": 0,
+  "phase_errors": 0,
+  "worst_error_over_tolerance": null
+ }
+]

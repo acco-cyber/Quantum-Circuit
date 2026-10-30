@@ -45,3 +45,7 @@ Leaderboard 2026-10-27 00:32 UTC: 23.352 / 22.886 / 22.805 / 22.698 / 21.755. Ou
   sqrt(2 Lambda E_gap), so the next real step is a lower-one-norm factorization U (new angle circuits). Remaining 10-29 quantum
   slots: hold for newer public releases or own circuits (resubmitting identical bytes gives the identical score).
 * Smart Buildings: sb10 (gate 08:00) submitted 06:17 (slot 1/5). Next SB slots: wait for sb10 read-out, then gate 9.0/10.0 or back to 6.5.
+| v15 | 10-30 11:57 | 23.000 | best-of public (Ozer 62q invsqrt, 889q DQI 7a378f47, heliosli chem) - `notebooks/v15-bestof-23000` |
+| v16 | 10-30 19:39 | **23.172** | yoyobar 62q invsqrt 100,693 + yoyobar 889q DQI 4.0246e11 + Ozer/Real-150K chem 3.37798e8 - `notebooks/v16-yoyobar-inv-dqi-ozer-chem` |
+
+LB 10-30 22:30: 26.764 / 26.314 / 26.263; top 3 needs ~+13% GM. Next lever: chemistry (ratio 9.93) - fewer rows (76+R*B) with new structured angle circuits (GPU fit); cheap: trim chem slots 0-3 from 301 to ~279 Toffolis (~1% chem).
