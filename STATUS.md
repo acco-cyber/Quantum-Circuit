@@ -36,6 +36,7 @@ Leaderboard 2026-10-27 00:32 UTC: 23.352 / 22.886 / 22.805 / 22.698 / 21.755. Ou
 `docs/` has the organisers' chemistry scoring README; `reference/` the public baseline notebook.
 | v14 | staged 10-28 11:50 | (proj. 22.630) | v13 + somejoint R8/B143 C60 full-XOR chemistry 3.45124e8 (verifier PASS locally) - **submit with first 10-29 slot** - `notebooks/v14-somejoint-fullxor-chem-22630` |
 | v14 | 10-29 06:15 | pending (proj. 22.75-22.79) | heliosli 'dataset now public' release v28_gz9 (busyaprime 63q invsqrt 102,349; somejoint 897q DQI; somejoint R8/B143/C60 chem + heliosli angles + Gluzdov weights 3.4057e8) - supersedes the staged full-XOR v14 - `notebooks/v14-heliosli-v28-gz9-22787` |
+| v15 | 10-30 11:57 | **23.000** | best-of: Ozer 62q invsqrt 100,940 + 889q DQI 7a378f47 4.084e11 + heliosli 10-30 chem 3.37994e8 (all PASS locally) - `notebooks/v15-bestof-23000` |
 
 ### 10-29 notes
 * Quantum: every public portfolio now sits at ~22.78 (heliosli, kirilltym V22 22.78244 official - but kirilltym's loaders

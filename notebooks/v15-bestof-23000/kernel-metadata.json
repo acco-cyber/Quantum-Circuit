@@ -1,0 +1,24 @@
+{
+  "id": "gwey1025/vqcc-v15-bestof",
+  "id_no": 141713292,
+  "title": "vqcc-v15-bestof",
+  "code_file": "vqcc-v15-bestof.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "heliosli/the-dataset-is-public-now-enjoy",
+    "ahmedberatozer/quantum-ai-df-thc-group-compression"
+  ],
+  "competition_sources": [
+    "google-verifiable-quantum-circuit-compilation"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:17b2fc7f27c25c6c2fd4230ec8e66097ab2b89fc88e1e4d6f338b72e1ee0bc3e",
+  "machine_shape": "None"
+}
